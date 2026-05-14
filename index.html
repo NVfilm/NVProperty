@@ -1,167 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PropertyExpert - Buy, Rent, Sell Properties</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Header -->
-    <header>
-        <nav>
-            <a href="#" class="logo">
-                <i class="fas fa-home"></i>
-                PropertyExpert
-            </a>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#properties">Properties</a></li>
-                <li><a href="#buy">Buy</a></li>
-                <li><a href="#rent">Rent</a></li>
-                <li><a href="#sell">Sell</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NV Property</title>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Welcome to PropertyExpert</h1>
-            <p>Your trusted partner for buying, renting, and selling premium properties in Ghaziabad and Uttar Pradesh. Discover your dream home with expert guidance and verified listings.</p>
-            <div class="cta-buttons">
-                <a href="#properties" class="btn btn-primary">Find Properties</a>
-                <a href="#forms" class="btn btn-secondary">Post Property</a>
-            </div>
-        </div>
-    </section>
-<section class="about-section" id="about">
-  <div class="about-container">
+  <link rel="stylesheet" href="style.css" />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+
+  <header class="navbar">
+
+    <div class="logo">
+      NV Property
+    </div>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#properties">Properties</a></li>
+        <li><a href="#why">Why Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <!-- HERO -->
+
+  <section class="hero" id="home">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+      <h1>
+        Find Your Dream Property
+      </h1>
+
+      <p>
+        Luxury homes, apartments and investment properties in premium locations.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#properties" class="btn">Explore Properties</a>
+        <a href="#contact" class="btn btn-outline">Contact Us</a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+
+  <section class="about" id="about">
 
     <div class="about-image">
-      <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1200&auto=format&fit=crop" alt="About NV Property">
+      <img
+        src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1200&auto=format&fit=crop"
+        alt=""
+      />
     </div>
 
     <div class="about-content">
-      <span class="section-subtitle">About Us</span>
-      <h2>Helping Families Find Their Dream Property</h2>
+
+      <span>ABOUT US</span>
+
+      <h2>
+        Helping Families Find Perfect Homes
+      </h2>
 
       <p>
-        NV Property is focused on helping buyers and investors discover premium residential and commercial properties with complete transparency and trust.
+        NV Property helps buyers and investors discover premium residential and commercial properties with complete trust and transparency.
       </p>
 
       <p>
-        From luxury apartments to investment plots, we provide verified listings, expert guidance and smooth property deals.
+        We provide verified listings, luxury homes and smart investment opportunities at the best prices.
       </p>
 
-      <a href="#contact" class="main-btn">Contact Us</a>
+      <a href="#contact" class="btn">
+        Get In Touch
+      </a>
+
     </div>
 
-  </div>
-</section>
-    <section class="why-us-section">
-  <div class="section-header">
-    <h2>Why Choose Us</h2>
-    <p>We provide trusted real estate services with modern solutions.</p>
-  </div>
+  </section>
 
-  <div class="why-grid">
+  <!-- PROPERTIES -->
 
-    <div class="why-card">
-      <div class="why-icon">🏠</div>
-      <h3>Verified Properties</h3>
-      <p>Only genuine and verified listings for safe investments.</p>
+  <section class="properties" id="properties">
+
+    <div class="section-title">
+      <h2>Featured Properties</h2>
+      <p>Explore our premium listings</p>
     </div>
 
-    <div class="why-card">
-      <div class="why-icon">💰</div>
-      <h3>Best Pricing</h3>
-      <p>Affordable and premium property options for every budget.</p>
-    </div>
+    <div class="property-grid">
 
-    <div class="why-card">
-      <div class="why-icon">📍</div>
-      <h3>Prime Locations</h3>
-      <p>Properties available in fast-growing and high-demand areas.</p>
-    </div>
+      <!-- CARD 1 -->
 
-    <div class="why-card">
-      <div class="why-icon">🤝</div>
-      <h3>Trusted Support</h3>
-      <p>Complete support from inquiry to final property deal.</p>
-    </div>
+      <div class="property-card">
 
-  </div>
-</section>
-    <!-- Properties Section -->
-    <section class="featured-properties" id="properties">
-        <h3>Luxury Apartment</h3>
-        <p>3 BHK • Fully Furnished • Balcony</p>
-        <div class="property-bottom">
-          <h4>₹78 Lac</h4>
-          <a href="#contact" class="property-btn">Enquire</a>
+        <img
+          src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=1200&auto=format&fit=crop"
+          alt=""
+        />
+
+        <div class="property-info">
+
+          <span class="tag">Luxury Villa</span>
+
+          <h3>Modern Family Villa</h3>
+
+          <p>4 BHK • Swimming Pool • Parking</p>
+
+          <div class="property-bottom">
+            <h4>₹1.2 Cr</h4>
+            <a href="#contact">Enquire</a>
+          </div>
+
         </div>
-      </div>
-    </div>
 
-    <div class="property-card">
-      <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=1200&auto=format&fit=crop" alt="Independent House">
-      <div class="property-content">
-        <span class="property-tag">Independent House</span>
-        <h3>Premium House</h3>
-        <p>5 BHK • Garden • Smart Home</p>
-        <div class="property-bottom">
-          <h4>₹1.8 Cr</h4>
-          <a href="#contact" class="property-btn">Enquire</a>
+      </div>
+
+      <!-- CARD 2 -->
+
+      <div class="property-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1200&auto=format&fit=crop"
+          alt=""
+        />
+
+        <div class="property-info">
+
+          <span class="tag">Apartment</span>
+
+          <h3>Luxury Apartment</h3>
+
+          <p>3 BHK • Fully Furnished</p>
+
+          <div class="property-bottom">
+            <h4>₹78 Lac</h4>
+            <a href="#contact">Enquire</a>
+          </div>
+
         </div>
-      </div>
-    </div>
 
-    <div class="property-card">
-      <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1200&auto=format&fit=crop" alt="Builder Floor">
-      <div class="property-content">
-        <span class="property-tag">Builder Floor</span>
-        <h3>Elegant Builder Floor</h3>
-        <p>3 BHK • Lift • Modular Kitchen</p>
-        <div class="property-bottom">
-          <h4>₹65 Lac</h4>
-          <a href="#contact" class="property-btn">Enquire</a>
+      </div>
+
+      <!-- CARD 3 -->
+
+      <div class="property-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1200&auto=format&fit=crop"
+          alt=""
+        />
+
+        <div class="property-info">
+
+          <span class="tag">Builder Floor</span>
+
+          <h3>Elegant Builder Floor</h3>
+
+          <p>3 BHK • Lift • Balcony</p>
+
+          <div class="property-bottom">
+            <h4>₹65 Lac</h4>
+            <a href="#contact">Enquire</a>
+          </div>
+
         </div>
-      </div>
-    </div>
 
-    <div class="property-card">
-      <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Luxury Flat">
-      <div class="property-content">
-        <span class="property-tag">Luxury Flat</span>
-        <h3>City View Flat</h3>
-        <p>2 BHK • Metro Nearby • Clubhouse</p>
-        <div class="property-bottom">
-          <h4>₹52 Lac</h4>
-          <a href="#contact" class="property-btn">Enquire</a>
+      </div>
+
+      <!-- CARD 4 -->
+
+      <div class="property-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop"
+          alt=""
+        />
+
+        <div class="property-info">
+
+          <span class="tag">Luxury Flat</span>
+
+          <h3>City View Flat</h3>
+
+          <p>2 BHK • Clubhouse • Gym</p>
+
+          <div class="property-bottom">
+            <h4>₹52 Lac</h4>
+            <a href="#contact">Enquire</a>
+          </div>
+
         </div>
-      </div>
-    </div>
 
-    <div class="property-card">
-      <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1200&auto=format&fit=crop" alt="Commercial Space">
-      <div class="property-content">
-        <span class="property-tag">Commercial</span>
-        <h3>Commercial Office Space</h3>
-        <p>Prime Location • Parking • Security</p>
-        <div class="property-bottom">
-          <h4>₹95 Lac</h4>
-          <a href="#contact" class="property-btn">Enquire</a>
+      </div>
+
+      <!-- CARD 5 -->
+
+      <div class="property-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1200&auto=format&fit=crop"
+          alt=""
+        />
+
+        <div class="property-info">
+
+          <span class="tag">Commercial</span>
+
+          <h3>Office Space</h3>
+
+          <p>Prime Location • Security</p>
+
+          <div class="property-bottom">
+            <h4>₹95 Lac</h4>
+            <a href="#contact">Enquire</a>
+          </div>
+
         </div>
+
       </div>
+
+      <!-- CARD 6 -->
+
+      <div class="property-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1460317442991-0ec209397118?q=80&w=1200&auto=format&fit=crop"
+          alt=""
+        />
+
+        <div class="property-info">
+
+          <span class="tag">Premium House</span>
+
+          <h3>Luxury Smart Home</h3>
+
+          <p>5 BHK • Smart Features</p>
+
+          <div class="property-bottom">
+            <h4>₹1.8 Cr</h4>
+            <a href="#contact">Enquire</a>
+          </div>
+
+        </div>
+
+      </div>
+
     </div>
 
-  </div>
-</section>
-<section class="stats-section">
-  <div class="stats-container">
+  </section>
+
+  <!-- WHY US -->
+
+  <section class="why-us" id="why">
+
+    <div class="section-title">
+      <h2>Why Choose Us</h2>
+      <p>Trusted property services for modern buyers</p>
+    </div>
+
+    <div class="why-grid">
+
+      <div class="why-card">
+        <i class="fa-solid fa-house"></i>
+        <h3>Verified Properties</h3>
+        <p>Only genuine and verified listings.</p>
+      </div>
+
+      <div class="why-card">
+        <i class="fa-solid fa-location-dot"></i>
+        <h3>Prime Locations</h3>
+        <p>Best properties in high demand areas.</p>
+      </div>
+
+      <div class="why-card">
+        <i class="fa-solid fa-handshake"></i>
+        <h3>Trusted Support</h3>
+        <p>Complete support from inquiry to deal.</p>
+      </div>
+
+      <div class="why-card">
+        <i class="fa-solid fa-money-bill"></i>
+        <h3>Best Pricing</h3>
+        <p>Affordable and premium options available.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- STATS -->
+
+  <section class="stats">
 
     <div class="stat-box">
       <h2>500+</h2>
@@ -180,169 +326,95 @@
 
     <div class="stat-box">
       <h2>24/7</h2>
-      <p>Customer Support</p>
+      <p>Support</p>
     </div>
 
-  </div>
-</section>
-    <section class="testimonial-section">
-  <div class="section-header">
-    <h2>What Clients Say</h2>
-    <p>Trusted by families and investors.</p>
-  </div>
+  </section>
 
-  <div class="testimonial-grid">
+  <!-- TESTIMONIALS -->
 
-    <div class="testimonial-card">
-      <p>
-        “Amazing service and genuine property options. The process was smooth and professional.”
-      </p>
-      <h4>— Rahul Sharma</h4>
+  <section class="testimonials">
+
+    <div class="section-title">
+      <h2>What Clients Say</h2>
+      <p>Trusted by families and investors</p>
     </div>
 
-    <div class="testimonial-card">
-      <p>
-        “Very helpful team. I found the perfect apartment within my budget.”
-      </p>
-      <h4>— Priya Mehta</h4>
+    <div class="testimonial-grid">
+
+      <div class="testimonial-card">
+        <p>
+          Amazing service and genuine property options. Highly recommended.
+        </p>
+        <h4>- Rahul Sharma</h4>
+      </div>
+
+      <div class="testimonial-card">
+        <p>
+          Smooth experience and excellent support during the property deal.
+        </p>
+        <h4>- Priya Mehta</h4>
+      </div>
+
+      <div class="testimonial-card">
+        <p>
+          Best real estate team for investment properties.
+        </p>
+        <h4>- Aman Verma</h4>
+      </div>
+
     </div>
 
-    <div class="testimonial-card">
-      <p>
-        “Highly recommended for anyone looking for investment properties.”
-      </p>
-      <h4>— Aman Verma</h4>
+  </section>
+
+  <!-- CONTACT -->
+
+  <section class="contact" id="contact">
+
+    <div class="section-title">
+      <h2>Contact Us</h2>
+      <p>Get in touch for premium properties</p>
     </div>
 
-  </div>
-</section>
-    <!-- Forms Section -->
-    <section id="forms" class="forms-section">
-        <div class="container">
-            <div class="forms-container">
-                <div class="form-card">
-                    <h3><i class="fas fa-search"></i> Buy Property</h3>
-                    <form class="buy-form">
-                        <div class="form-group">
-                            <label>Property Type</label>
-                            <select required>
-                                <option value="">Select Type</option>
-                                <option>Apartment/Flat</option>
-                                <option>Independent House</option>
-                                <option>Villa</option>
-                                <option>Builder Floor</option>
-                                <option>Plot</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label>Budget (₹)</label>
-                            <select required>
-                                <option value="">Select Budget</option>
-                                <option>Under 50L</option>
-                                <option>50L - 1Cr</option>
-                                <option>1Cr - 2Cr</option>
-                                <option>2Cr+</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label>BHK</label>
-                            <select required>
-                                <option value="">Select BHK</option>
-                                <option>1 BHK</option>
-                                <option>2 BHK</option>
-                                <option>3 BHK</option>
-                                <option>4+ BHK</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label>Location</label>
-                            <input type="text" placeholder="Enter preferred location" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary full-width">🔍 Search Properties</button>
-                    </form>
-                </div>
+    <form class="contact-form">
 
-                <div class="form-card">
-                    <h3><i class="fas fa-key"></i> Rent Property</h3>
-                    <form class="rent-form">
-                        <div class="form-group">
-                            <label>Property Type</label>
-                            <select required>
-                                <option value="">Select Type</option>
-                                <option>Apartment/Flat</option>
-                                <option>Independent House</option>
-                                <option>Builder Floor</option>
-                                <option>Office Space</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label>Monthly Rent (₹)</label>
-                            <select required>
-                                <option value="">Select Rent</option>
-                                <option>Under 20K</option>
-                                <option>20K - 40K</option>
-                                <option>40K - 60K</option>
-                                <option>60K+</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label>BHK</label>
-                            <select required>
-                                <option value="">Select BHK</option>
-                                <option>1 BHK</option>
-                                <option>2 BHK</option>
-                                <option>3 BHK</option>
-                                <option>Any</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label>Location</label>
-                            <input type="text" placeholder="Enter preferred location" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary full-width">🏠 Find Rentals</button>
-                    </form>
-                </div>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <input type="text" placeholder="Phone Number" required />
 
-                <div class="form-card">
-                    <h3><i class="fas fa-plus"></i> Sell Property</h3>
-                    <form class="sell-form">
-                        <div class="form-group">
-                            <label>Property Type</label>
-                            <select required>
-                                <option value="">Select Type</option>
-                                <option>Apartment/Flat</option>
-                                <option>Independent House</option>
-                                <option>Villa</option>
-                                <option>Plot/Land</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label>Expected Price (₹)</label>
-                            <input type="number" placeholder="Enter expected price" required>
-                        </div>
-                        <div class="form-group">
-                            <label>Property Size (sqft)</label>
-                            <input type="number" placeholder="Enter area in sqft" required>
-                        </div>
-                        <div class="form-group">
-                            <label>Address</label>
-                            <textarea rows="3" placeholder="Enter complete address" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary full-width">📤 Post Property</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+      <textarea rows="5" placeholder="Your Message"></textarea>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 PropertyExpert. All rights reserved. | Ghaziabad, Uttar Pradesh</p>
-            <p><i class="fas fa-phone"></i> +91 98765 43210 | <i class="fas fa-envelope"></i> info@propertyexpert.com</p>
-        </div>
-    </footer>
+      <button type="submit">
+        Send Message
+      </button>
 
-    <script src="script.js"></script>
+    </form>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <h2>NV Property</h2>
+
+    <p>
+      Luxury Properties • Smart Investments • Trusted Deals
+    </p>
+
+    <div class="socials">
+
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+      <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
