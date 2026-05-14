@@ -164,3 +164,12 @@ function toggleMobileMenu() {
     const navLinks = document.querySelector('.nav-links');
     navLinks.classList.toggle('active');
 }
+const cards = document.querySelectorAll(
+  '.property-card, .why-card, .testimonial-card'
+);
+
+window.addEventListener('scroll', () => {
+  cards.forEach(card => {
+    const top = card.getBoundingClientRect().top;
+
+    if(top < window.innerHe
